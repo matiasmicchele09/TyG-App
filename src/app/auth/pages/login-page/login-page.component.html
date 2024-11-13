@@ -1,0 +1,28 @@
+<div class="div-login">
+  <form [formGroup]="formLogin" class="form-login">
+    <h2  class="title">Taco & Gambeta</h2>
+
+    <hr>
+
+    <div>
+      <h4>Correo</h4>
+      <input type="email"
+             class="form-control"
+             formControlName="email"
+             placeholder="Ingrese su email">
+    </div>
+
+    <div>
+      <h4>Contraseña</h4>
+      <input type="password"
+             class="form-control"
+             formControlName="pass"
+             placeholder="Ingrese su contraseña">
+    </div>
+
+    <p style="font-size: 1rem;">¿No tienes cuenta? Registrate <a href="#">aquí</a></p>
+    <button class="btn btn-primary">
+      Ingresar
+    </button>
+  </form>
+</div>

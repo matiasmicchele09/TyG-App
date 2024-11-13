@@ -1,0 +1,35 @@
+.div-login{
+  background: linear-gradient(red, blue, red);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.form-login{
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  justify-content: center;
+  min-width: 400px;
+  row-gap: 10px;
+  position: absolute;
+  background-color: #FFFFFF;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.title{
+  display: flex;
+  justify-content: center;
+  margin: 10px 0 0 0;
+}
+
+.form-login input{
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
